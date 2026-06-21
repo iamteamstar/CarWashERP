@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashERP.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashERP.API", "CarWashERP.API\CarWashERP.API.csproj", "{39807051-D6AA-4396-8814-341E332769AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWashERP.Application", "CarWashERP.Application\CarWashERP.Application.csproj", "{5EC72E34-1519-4A7B-AB60-5674ADDB740B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{39807051-D6AA-4396-8814-341E332769AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39807051-D6AA-4396-8814-341E332769AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39807051-D6AA-4396-8814-341E332769AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC72E34-1519-4A7B-AB60-5674ADDB740B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC72E34-1519-4A7B-AB60-5674ADDB740B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC72E34-1519-4A7B-AB60-5674ADDB740B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC72E34-1519-4A7B-AB60-5674ADDB740B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
