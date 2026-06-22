@@ -21,6 +21,7 @@
   <ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ProjectReference Include="..\CarWashERP.Domain\CarWashERP.Domain.csproj" />
     <ProjectReference Include="..\CarWashERP.Infrastructure\CarWashERP.Infrastructure.csproj" />
 =======
@@ -30,6 +31,10 @@
     <ProjectReference Include="..\CarWashERP.Domain\CarWashERP.Domain.csproj" />
     <ProjectReference Include="..\CarWashERP.Infrastructure\CarWashERP.Infrastructure.csproj" />
 >>>>>>> dce3396967831e5762d0b2b3ac7891e53ef89899
+=======
+    <ProjectReference Include="..\CarWashERP.Domain\CarWashERP.Domain.csproj" />
+    <ProjectReference Include="..\CarWashERP.Infrastructure\CarWashERP.Infrastructure.csproj" />
+>>>>>>> d4ea36f4b405c872d09dd49d958bb83911cd31df
   </ItemGroup>
 
 </Project>
