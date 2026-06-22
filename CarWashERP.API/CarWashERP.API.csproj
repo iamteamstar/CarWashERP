@@ -19,12 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <ProjectReference Include="..\CarWashERP.Domain\CarWashERP.Domain.csproj" />
     <ProjectReference Include="..\CarWashERP.Infrastructure\CarWashERP.Infrastructure.csproj" />
-=======
-    <ProjectReference Include="..\CarWashERP.Application\CarWashERP.Application.csproj" />
->>>>>>> application
   </ItemGroup>
 
 </Project>
