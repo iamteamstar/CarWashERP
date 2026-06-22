@@ -13,7 +13,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 		builder.Configuration.GetConnectionString("DefaultConnection"),
 		b => b.MigrationsAssembly("CarWashERP.Infrastructure")
 	));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+// Repository ve Service kayýtlarý
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IWashOrderRepository, WashOrderRepository>();
+builder.Services.AddScoped<IWashOrderService, WashOrderService>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
